@@ -1,4 +1,5 @@
 # Shopinext
+Php Class for Shopinext Virtual Pos
  
 # Creating a Sample Payment Page
 
