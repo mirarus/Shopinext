@@ -33,7 +33,6 @@ $shopinext->setProduct([
 
 $shopinext->setLocale('TRY');
 
-
 $result = $shopinext->init();
 
 if (isset($result['sessionToken'])) {
@@ -83,7 +82,6 @@ if (isset($result['sessionToken'])) {
     </html>
     <?php
 }
-?>
 ```
 
 # Creating a Sample CallBack Page
