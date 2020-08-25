@@ -30,7 +30,7 @@ $shopinext->setLocale('TRY');
 
 $result = $shopinext->init();
 
-if (isset($result['sessionToken'])) {
+if (!isset($result['sessionToken'])) {
     exit('Payment failed! <br> Reason: ' . $result['errorMsg']);
     $error_message = $result['errorMsg'];
 } else{
