@@ -11,6 +11,8 @@ $shopinext->setConfig([
     'return_url' => 'CallBack.php', # Shopinext CallBack Url
 ]);
 
+// $shopinext->setLocale('TRY');
+
 $shopinext->setCustomer([
     'name' => 'customer.name', # Customer Name
     'email' => 'customer.mail@gmail.com', # Customer Mail
@@ -24,8 +26,6 @@ $shopinext->setCustomer([
 $shopinext->setProduct([
     'amount' => 100, # Product Price
 ]);
-
-$shopinext->setLocale('TRY');
 
 
 $result = $shopinext->init();
